@@ -225,6 +225,3 @@ getData = function(ids, start.date=format(Sys.time(), "%Y-%m-%d"), end.date=form
   
   return(ga.data.df)
 }
-
-# test getData('ga:20108692')
-# test request: getData('ga:20108692', '2011-01-01', '2011-12-31', 'ga:visits', 'ga:city')
